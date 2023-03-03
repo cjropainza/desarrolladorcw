@@ -1,0 +1,29 @@
+nav{
+  background-image: linear-gradient(to bottom, #c2c2c2, #ffffff);
+}
+
+
+.navbar-brand {
+  padding-left: 3cm;
+}
+
+.custom-select {
+  width: 5cm;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+select {
+  margin-left: 3cm;
+  margin-top: 50px
+}

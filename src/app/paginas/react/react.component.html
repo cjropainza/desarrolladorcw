@@ -1,0 +1,22 @@
+<div class="news-container">
+  <div class="news-card" *ngFor="let item of items.slice((currentPage-1)*pageSize, currentPage*pageSize)">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{ item.created_at }}</h5>
+        <p class="card-text">{{ item.story_title }}</p>
+        <button type="button" class="btn btn-outline-secondary" [class.active]="item.active" (click)="agregarFavorito(item)">
+          <i class="far fa-star"></i> Agregar a favoritos
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="pagination">
+  <button (click)="currentPage = 1">1</button>
+  <button (click)="currentPage = 2">2</button>
+  <button (click)="currentPage = 3">3</button>
+  <!-- Agregar botones adicionales para más páginas -->
+</div>
