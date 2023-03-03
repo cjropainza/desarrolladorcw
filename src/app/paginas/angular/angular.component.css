@@ -1,16 +1,9 @@
-.card {
-  margin-bottom: 1rem;
-  border: 1px solid #eee;
-  border-radius: 0.25rem;
-  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
-}
-
-.card-title {
+.card-text {
   font-size: 1.25rem;
   font-weight: 600;
 }
 
-.card-text {
+.card-title {
   font-size: 1rem;
   color: #666;
 }
@@ -26,23 +19,4 @@
 .news-card {
   width: 48%;
   margin-bottom: 20px;
-}
-
-.btn i {
-  font-size: 1.5rem;
-  color: gold;
-}
-
-.hover-card {
-  opacity: 0.8;
-}
-
-.card-body {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-}
-
-.btn {
-  align-self: flex-end;
 }
